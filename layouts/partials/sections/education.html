@@ -35,14 +35,7 @@
                                 {{ .school.name }}
                                 {{ end }}
 
-                                {{ if .GPA }}
-                                <div class="py-1">
-                                    GPA:
-                                    <i>
-                                        <small>{{ .GPA }}</small>
-                                    </i> 
-                                </div>
-                                {{ end }}
+                            
                                 <div class="py-1 education-content">
                                     {{ .content | markdownify}}
                                 </div>
